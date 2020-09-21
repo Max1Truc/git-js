@@ -1,0 +1,21 @@
+{
+  "name": "git-js",
+  "version": "0.0.1",
+  "description": "An implementation of the \"git clone\" and \"git pull\" commands only in JavaScript.",
+  "main": "lib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "client",
+    "js",
+    "javascript"
+  ],
+  "author": "Max1Truc",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "rimraf": "^3.0.2"
+  }
+}
