@@ -52,6 +52,10 @@ if (argv._[0] == "clone" && argv._[1]) {
   } else {
     console.log(`Please give me a sha1 hash`);
   }
+} else if (argv._[0] == "write-tree") {
+  const repository = ".";
+  const directory = argv._[1] || ".";
+  console.log(lib.write_tree(repository, directory));
 } else {
   console.log(
     `Error, the only recognised commands are:
