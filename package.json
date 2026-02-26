@@ -16,6 +16,6 @@
   "license": "MIT",
   "dependencies": {
     "minimist": "^1.2.5",
-    "rimraf": "^3.0.2"
+    "rimraf": "^6.1.3"
   }
 }
